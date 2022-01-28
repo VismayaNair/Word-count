@@ -7,44 +7,33 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step1:
 Start
-
 ### Step 2:
 Declare a variable count equal to 0.
-
 ### Step 3:
 Open the required text file in read mode as text.(any name can be used).
-
 ### Step 4:
 Loop until variable i in file text.
-
 ### Step 5:
 Declare variable word = i.split().
-
 ### Step 6:
 Process count+=len(word) End loop
-
 ### Step 7:
 Print the value of count, which has the number of words in the file
-
 ### Step 8:
-Stop 
+Stop
 
 ## PROGRAM:
-```
 num_words =0
 with open('text.txt','r') as file1:
     for i in file1:
         word =i.split()
         num_words += len(word)
 print("Number of words={}".format(num_words))
-```
-
 ### OUTPUT:
-# Python File:
-![](py.png)
-# Text File:
-![](txt.png)
+![github](word1.png)
+![github](word2.png)
 
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
+
